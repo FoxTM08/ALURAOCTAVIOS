@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    font-family: "New Amsterdam", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    border-bottom: 2px solid #1e8d1a;
+    padding: 1em;
+    font-size: 2em;
+    color: #1e8d1a;
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #82e007;
+    padding: 4em 1em; /* Ajuste o padding para que a seção fique adequada */
+    display: flex;
+    flex-direction: column; /* Altere para coluna para ajustar a nova estrutura */
+    align-items: center;
+    gap: 2em; /* Espaçamento entre o texto e o conteúdo */
+  }
+  
+  .hero-text {
+    text-align: center; /* Centralize o texto dentro da seção hero */
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em; /* Espaçamento entre o iframe e a galeria de vídeos */
+    width: 100%; /* Garante que o conteúdo da hero ocupe a largura total */
+  }
+  
+  .videos {
+    width: 100%; /* Garante que a seção vídeos ocupe a largura total */
+    text-align: center; /* Centraliza o conteúdo da seção vídeos */
+  }
+  
+  .videos h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    padding: 0 1em; /* Adiciona algum padding para que o título não encoste nas bordas */
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-wrap: nowrap; /* Impede a quebra das imagens para a próxima linha */
+    justify-content: center;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    gap: 10px; /* Espaçamento entre os itens da galeria */
+    padding: 0 1em; /* Adiciona algum padding horizontal */
+    margin: 0 auto; /* Centraliza a galeria de vídeos horizontalmente */
+  }
+  
+  .video-grid img {
+    height: 200px;
+    width: auto; /* Ajuste a largura para manter a proporção da imagem */
+  }
+  
+  .video-grid a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .video-grid a:hover {
+    color: #1e8d1a;
+  }
+  
